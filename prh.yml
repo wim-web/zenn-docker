@@ -1,0 +1,17 @@
+version: 1
+
+# ref https://github.com/prh/prh/blob/master/misc/prh.yml
+
+imports:
+  - path: ./node_modules/textlint-rule-preset-icsmedia/dict/prh.yml
+    # ignoreRules:
+    #   - expected: VS Code
+
+rules:
+  # - expected: VSCode
+  #   specs:
+  #     - from: vscode
+  #       to: VSCode
+  #     - from: VScode
+  #       to: VSCode
+  #   prh: 大文字・小文字を確認してください
